@@ -1,4 +1,4 @@
-setwd('~/Documents/MSAN/DataViz/HW3/')
+#setwd('~/Documents/MSAN/DataViz/HW3/')
 
 library(reshape2)
 library(ggvis)
@@ -97,7 +97,6 @@ server <- function(input, output){
 
     ggpairs(pairs_data, aes(colour = Paid, alpha = 0.4))
   })
-  
   
   
   
